@@ -34,10 +34,10 @@ gem 'haml'
 group :development, :test do
   gem 'ruby-debug19'
 end
-#group :test, :development do
-#  gem 'cucumber-rails'
-#  gem 'cucumber-rails-training-wheels'
-#  gem 'database_cleaner'
-#  gem 'capybara'
-#  gem 'launchy'
-#end
+group :test, :development do
+  gem 'cucumber-rails'
+  gem 'cucumber-rails-training-wheels'
+  gem 'database_cleaner'
+  gem 'capybara'
+  gem 'launchy'
+end

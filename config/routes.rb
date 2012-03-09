@@ -13,6 +13,7 @@ Myrottenpotatoes::Application.routes.draw do
   # Sample resource route (maps HTTP verbs to controller actions automatically):
      resources :movies
 
+     post '/movies/search_tmdb'
   # Sample resource route with options:
   #   resources :products do
   #     member do
